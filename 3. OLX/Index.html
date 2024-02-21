@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>olx</title>
+   <link rel="stylesheet" href="./index.css">
+   <link rel="icon" href="./images/olx-logo.png">
+   <script>
+      function changeBorder() {
+         var ref = document.getElementById("State");
+         ref.style.border = "2px solid red";
+      }
+   </script>
+</head>
+
+<body>
+   <nav>
+      <div class="container nav-bar">
+         <div class="nav-icon">
+            <img src="./images/asset 0.svg" alt="logo">
+         </div>
+
+         <div class="select-state">
+            <img src="./images/asset 3.svg" alt="" class="search-icon">
+            <input type="text" name="" id="State" placeholder="Search city, area or location">
+         </div>
+
+         <div class="search-bar">
+            <input type="text" id="test" placeholder="Find Cars, Mobile Phones and more...">
+            <a href="#">
+               <!-- <img src="./images/asset 1.svg" alt="searchIcon" class="searchIcon"> -->
+               <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+            </a>
+         </div>
+
+         <div class="language">
+            <select name="lang" id="lang">
+               <option value="English">ENGLISH</option>
+               <option value="Hindi">Hindi</option>
+            </select>
+         </div>
+
+
+         <div class="login">
+            <a href="#">Login</a>
+         </div>
+
+         <div class="sell-button">
+            <i class="fa-solid fa-plus"></i>
+            <a href="#">SELL</a>
+         </div>
+      </div>
+   </nav>
+
+
+   <header>
+      <div class="category-box container">
+         <div class="all-category">
+            <span>ALL CATEGORY</span>
+            <i class="fa-solid fa-chevron-down"></i>
+         </div>
+         <div class="option">
+            <span>Car</span><span>Motorcycle</span><span>MObile Phones</span><span>For Sale: Houses &
+               Apartments</span><span>Scooters</span><span>Commercial & Other Vehicles</span><span>For Rent: Houses &
+               Apartments</span>
+         </div>
+      </div>
+   </header>
+
+   <main>
+      <div class="container product-container">
+         <div class="main-head">
+            <h2>Fresh recommendations</h2>
+         </div>
+
+         <div class="product-area">
+            <!-- fist column -->
+            <tr>
+               <td>
+                  <div class="product-cart">
+                     <div class="product-image">
+                        <img src="./Product-image/product (1).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 2700</div>
+                        <div class="product-about">New Branded shows</div>
+                        <div class="product-location">Gollapudi, vijayawada</div>
+                        <div class="upload-date">jul 04</div>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="product-cart">
+                     <div class="product-image">
+                        <img src="./Product-image/product (2).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 999</div>
+                        <div class="product-about">Spiker</div>
+                        <div class="product-location">Vijayanagar, indore</div>
+                        <div class="upload-date">mar 03</div>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (3).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 1569</div>
+                        <div class="product-about">Smart Watch</div>
+                        <div class="product-location">Smart Watch</div>
+                        <div class="upload-date">mar 06</div>
+                     </div>
+                  </div>
+               </td>
+               <td>
+                  <div class="product-cart col-last">
+                     <div class="product-image">
+                        <img src="./Product-image/product (4).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 599</div>
+                        <div class="product-about">KeyBoard</div>
+                        <div class="product-location">REVNUE COLONY, CHANDRAPUR</div>
+                        <div class="upload-date">feb 05</div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+
+            <!-- second column -->
+            <tr>
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (5).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 899</div>
+                        <div class="product-about">shope</div>
+                        <div class="product-location">TRANSPORT NAGAR INDORE</div>
+                        <div class="upload-date">JUN 15</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (6).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 2099</div>
+                        <div class="product-about">headphone</div>
+                        <div class="product-location">AZAD NAGAR, INDORE</div>
+                        <div class="upload-date">feb 23</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (7).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 3999</div>
+                        <div class="product-about">camera</div>
+                        <div class="product-location">CHANDAN NAGAR, INDORE</div>
+                        <div class="upload-date">jun 23</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart col-last">
+                     <div class="product-image">
+                        <img src="./Product-image/product (8).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 9999</div>
+                        <div class="product-about">bicycle</div>
+                        <div class="product-location">11 BANGLOW COLONY, INDORE</div>
+                        <div class="upload-date">jun 23</div>
+                     </div>
+                  </div>
+               </td>
+            <tr>
+               <!-- Third column -->
+            <tr>
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (9).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 1099</div>
+                        <div class="product-about">perfume</div>
+                        <div class="product-location">LOKNAYAK NAGAR NEAR SADHANA NAGAR</div>
+                        <div class="upload-date">mar 03</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (10).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 399</div>
+                        <div class="product-about">mouse</div>
+                        <div class="product-location">KRANTI KRIPLANI NAGAR, INDORE</div>
+                        <div class="upload-date">aug 23</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (11).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 5600</div>
+                        <div class="product-about">camera</div>
+                        <div class="product-location">AYOOHYAPURI, INDORE</div>
+                        <div class="upload-date">mar 30</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart col-last">
+                     <div class="product-image">
+                        <img src="./Product-image/product (12).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 1063</div>
+                        <div class="product-about">Mach box</div>
+                        <div class="product-location">11 BANGLOW COLONY, INDORE</div>
+                        <div class="upload-date">aug 3</div>
+                     </div>
+                  </div>
+               </td>
+            <tr>
+               <!-- Fifth column -->
+            <tr>
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (13).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 2099</div>
+                        <div class="product-about">headphone</div>
+                        <div class="product-location">MOHTA BAGH, INDORE</div>
+                        <div class="upload-date">aug 06</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (14).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 35000</div>
+                        <div class="product-about">i phone</div>
+                        <div class="product-location">SMURTI NAGAR, INDORE</div>
+                        <div class="upload-date">mar 23</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (15).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 50000 </div>
+                        <div class="product-about">mac book</div>
+                        <div class="product-location">BHAWARKUA, INDORE</div>
+                        <div class="upload-date">jun 6</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart col-last">
+                     <div class="product-image">
+                        <img src="./Product-image/product (16).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 999</div>
+                        <div class="product-about">keyboard</div>
+                        <div class="product-location">GOYAL NAGAR, INDORE</div>
+                        <div class="upload-date">jun 23</div>
+                     </div>
+                  </div>
+               </td>
+            <tr>
+
+               <!-- Fifth column -->
+            <tr>
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (17).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 1463</div>
+                        <div class="product-about">markup kit</div>
+                        <div class="product-location">REVNUE COLONY, CHANDRAPUR</div>
+                        <div class="upload-date">jun 03</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (18).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 999</div>
+                        <div class="product-about">ace</div>
+                        <div class=" product-location">BHAWARKUA, INDORE</div>
+                        <div class="upload-date">jun 12</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart ">
+                     <div class="product-image">
+                        <img src="./Product-image/product (19).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 20599</div>
+                        <div class="product-about">Samart phone</div>
+                        <div class="product-location">KRANTI KRIPLANI NAGAR, INDORE</div>
+                        <div class="upload-date">jul 03</div>
+                     </div>
+                  </div>
+               </td>
+
+               <td>
+                  <div class="product-cart col-last">
+                     <div class="product-image">
+                        <img src="./Product-image/product (20).jpg" alt="Product">
+                     </div>
+                     <div class="product-details">
+                        <div class="product-price">&#8377; 15099</div>
+                        <div class="product-about">camera</div>
+                        <div class="product-location">MOHTA BAGH, INDORE</div>
+                        <div class="upload-date">jun 03</div>
+                     </div>
+                  </div>
+               </td>
+            <tr>
+         </div>
+
+         <center>
+            <a href="#">
+               <button class="btn">Load more</button>
+            </a>
+         </center>
+      </div>
+   </main>
+
+   <div class="premotion">
+      <div class="container c-box">
+         <div class="phone-image">
+            <img src="./images/phone-app.png" alt="">
+         </div>
+         <div class="try-app">
+            <h1>TRY THE OLX APP</h1>
+            <p>Buy, sell and find just about anything using the app on your mobile.</p>
+         </div>
+         <div class="app-link">
+            <h4>GET YOUR APP TODAY</h4>
+            <a href="#">
+               <img src="./images/appstore_2x.png" alt="">
+            </a>
+            <a href="#">
+               <img src="./images/playstore_2x.png" alt="">
+            </a>
+         </div>
+      </div>
+   </div>
+
+   <footer>
+      <div class="container footer">
+         <div class="footer-text">
+            <div class="POPULAR-LOCATIONS col">
+               <h5>POPULAR LOCATIONS</h5>
+               <a href="#">
+                  <p>Kolkata</p>
+               </a>
+               <a href="#">
+                  <p>Mumbai</p>
+               </a>
+               <a href="#">
+                  <p>Chennai</p>
+               </a>
+               <a href="#">
+                  <p>Pune</p>
+               </a>
+            </div>
+
+            <div class="TRENDING-LOCATIONS col">
+               <h5>TRENDING LOCATIONS</h5>
+               <a href="#">
+                  <p>Bhubaneshwar</p>
+               </a>
+               <a href="#">
+                  <p>Hyderabad</p>
+               </a>
+               <a href="#">
+                  <p>Chandigarh</p>
+               </a>
+               <a href="#">
+                  <p>Nashik</p>
+               </a>
+            </div>
+            <div class="ABOUT-US col">
+               <h5>ABOUT US</h5>
+               <a href="#">
+                  <p>About OLX Group</p>
+               </a>
+               <a href="#">
+                  <p>Careers</p>
+               </a>
+               <a href="#">
+                  <p>Contact Us</p>
+               </a>
+               <a href="#">
+                  <p>OLXPeople</p>
+               </a>
+               <a href="#">
+                  <p>Waah Jobs</p>
+               </a>
+            </div>
+
+            <div class="OLX col col4">
+               <h5>OLX</h5>
+               <a href="#">
+                  <p>Help</p>
+               </a>
+               <a href="#">
+                  <p>Sitemap</p>
+               </a>
+               <a href="#">
+                  <p>Legal & Privacy information</p>
+               </a>
+               <a href="#">
+                  <p>Blog</p>
+               </a>
+               <a href="#">
+                  <p>OLX Autos Sell Car</p>
+               </a>
+               <a href="#">
+                  <p>Vulnerability Disclosure Program</p>
+               </a>
+            </div>
+            <div class="social-link">
+               <h5>FOLLOW US</h5>
+               <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-square-instagram"></i>
+               </a>
+               <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+               </a>
+            </div>
+            <div class="footer-app-link">
+               <a href="#">
+                  <img src="./images/playstore_2x.png" alt="">
+               </a>
+               <a href="#">
+                  <img src="./images/appstore_2x.png" alt="">
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- subfooter -->
+   <div class="subfooter">
+      <div class="container sub-footer">
+         <div class="left-text">
+            <h6>Other countries</h6>
+            <a href="#">
+               <p>Indonesia - Pakistan - South Africa</p>
+            </a>
+         </div>
+         <div class="copyright">All rights reserved © 2006-2023 OLX</div>
+      </div>
+   </div>
+
+   <script src=" https://kit.fontawesome.com/c1fc3d2826.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
