@@ -1,4 +1,4 @@
-# Images of this website
+# Images of all websites
 
 ## 1. UsabilityHub
 ![usblity hub](https://github.com/tausif40/HTML-CSS-pages/assets/155213674/fa6897e6-34df-4652-83c6-296373779bf6)
